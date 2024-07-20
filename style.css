@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.transaction-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.transaction-list li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: black;
+    position: relative;
+}
+
+.transaction-list button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    padding: 5px 10px;
+    width: 60px;
+}
+
+.edit-btn {
+    background-color: #2196F3;
+    right: 80px; 
+}
+
+.delete-btn {
+    background-color: #f44336;
+    right: 10px;
+}
+
+.edit-btn:hover {
+    background-color: #1976D2;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.summary p {
+    font-size: 1.2em;
+}
